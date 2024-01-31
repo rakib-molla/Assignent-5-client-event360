@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <section>
-      <footer className=" bg-gradient-to-r from-[#353836] to-[#302F37]">
-        <div className="grid lg:grid-cols-6 md:grid-cols-3 justify-center gap-10 md:justify-items-center">
+      <footer className="  bg-gradient-to-r from-[#545540] to-[#4e4b6b]">
+        <div className="grid lg:grid-cols-6 md:grid-cols-3 justify-center gap-10 md:justify-items-center pt-20 pb-10">
           <div className="">
             <h1 className="text-3xl font-bold text-white text-left me-16">Event <span className="text-[#3461FF]">360</span></h1>
           </div>
@@ -49,11 +49,15 @@ const Footer = () => {
               </span>
             </Link>
           </div>
+
+         
         </div>
         <div>
-          <h1 className="border border-dashed border-gray-300 my-5 px-10 w-[95%] mx-auto"></h1>
+          <h1 className="border border-dashed border-gray-300 my-5 px-10 w-[95%] mx-auto "></h1>
         </div>
-        <div className="flex items-start justify-between gap-5 flex-wrap px-10 p-10">
+
+
+        <div className=" relative flex items-start justify-between gap-5 flex-wrap px-10 p-10 ">
           <div className="text-white">@2023.All Right Reserved</div>
           <div className="flex gap-5 items-center flex-wrap text-white">
             <span>Terms</span>
@@ -62,7 +66,11 @@ const Footer = () => {
             <span className="flex gap-2 items-center"><WholeWord/> EN</span>
             <span className="flex gap-2 items-center"><EuroIcon/> EUR</span>
             <span className="flex gap-2 items-center border border-rose-50 rounded-full"><PlusIcon/></span>
+          
+          {/* <div className="absolute  size-96  bg-red-400 opacity-10 end-0 -top-72"></div> */}
+
           </div>
+
         </div>
       </footer>
     </section>

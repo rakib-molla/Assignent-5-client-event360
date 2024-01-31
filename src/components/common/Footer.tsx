@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="  bg-gradient-to-r from-[#545540] to-[#4e4b6b]">
         <div className="grid lg:grid-cols-6 md:grid-cols-3 justify-center gap-10 md:justify-items-center pt-20 pb-10">
           <div className="">
-            <h1 className="text-3xl font-bold text-white text-left me-16">Event <span className="text-[#3461FF]">360</span></h1>
+            <h1 className="text-3xl font-bold text-white text-left md:me-0 ">Event <span className="text-[#3461FF]">360</span></h1>
           </div>
           <div className="text-white">
             <h1 className="font-bold">Product</h1>

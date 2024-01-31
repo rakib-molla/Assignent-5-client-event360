@@ -1,4 +1,5 @@
 import ClientSection from "./ClientSection";
+import EventItems from "./EventItems";
 import OurServices from "./OurServices";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
       <div>
          <ClientSection/>
          <OurServices/>
+         <EventItems/>
       </div>
    );
 };

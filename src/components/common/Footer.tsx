@@ -1,10 +1,12 @@
+import Container from "@/layouts/Container";
 import { ArrowRight, EuroIcon, PlusIcon, WholeWord } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section>
-      <footer className="  bg-gradient-to-r from-[#545540] to-[#4e4b6b]">
+    <section className=" bg-gradient-to-r from-[#545540] to-[#4e4b6b]">
+      <Container> 
+      <footer>
         <div className="grid lg:grid-cols-6 md:grid-cols-3 justify-center gap-10 md:justify-items-center pt-20 pb-10">
           <div className="">
             <h1 className="text-3xl font-bold text-white text-left md:me-0 ">Event <span className="text-[#3461FF]">360</span></h1>
@@ -57,7 +59,7 @@ const Footer = () => {
         </div>
 
 
-        <div className=" relative flex items-start justify-between gap-5 flex-wrap px-10 p-10 ">
+        <div className=" relative flex items-start justify-between gap-5 flex-wrap p-10 ">
           <div className="text-white">@2023.All Right Reserved</div>
           <div className="flex gap-5 items-center flex-wrap text-white">
             <span>Terms</span>
@@ -73,6 +75,7 @@ const Footer = () => {
 
         </div>
       </footer>
+        </Container>
     </section>
   );
 };

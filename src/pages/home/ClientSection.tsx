@@ -8,13 +8,17 @@ import adobe from '@/assets/img/adobe.png'
 import paypal from '@/assets/img/paypal.png'
 import amazon from '@/assets/img/amazon.png'
 import asana from '@/assets/img/asana.png'
+import Container from '@/layouts/Container'
 
 
 function ClientSection() {
   return (
-    <div className='px-10'>
-        <h1 className="text-center text-5xl font-bold">Our Valuable Client</h1>
-        <div className="grid grid-cols-5 gap-10">
+    <>
+    <Container> 
+    <div className='border my-20'>
+        <h1 className="text-center text-5xl font-bold mb-10 p-10">Our Valuable Client</h1>
+        <div className="grid md:grid-cols-4 lg:grid-cols-5  items-center justify-items-center gap-10">
+   
             <div>
                 <img src={spotify} alt="" />
             </div>
@@ -25,28 +29,32 @@ function ClientSection() {
                 <img src={uber} alt="" />
             </div>
             <div>
-                <img src={microsoft} alt="" />
+                <img src={spotify} alt="" />
             </div>
             <div>
-                <img src={evernote} alt="" />
+                <img src={google} alt="" />
             </div>
             <div>
-                <img src={adobe} alt="" />
+                <img src={uber} alt="" />
             </div>
             <div>
-                <img src={paypal} alt="" />
+                <img src={google} alt="" />
             </div>
             <div>
-                <img src={shopify} alt="" />
+                <img src={uber} alt="" />
             </div>
             <div>
-                <img src={amazon} alt="" />
+                <img src={google} alt="" />
             </div>
             <div>
-                <img src={asana} alt="" />
+                <img src={uber} alt="" />
             </div>
+            
+            
         </div>
     </div>
+    </Container>
+     </>
   )
 }
 

@@ -1,8 +1,9 @@
+import ClientSection from "./ClientSection";
 
 const Home = () => {
    return (
       <div>
-         Home
+         <ClientSection/>
       </div>
    );
 };

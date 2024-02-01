@@ -6,40 +6,7 @@ import Container from '@/layouts/Container';
 
 function Navbar() {
 
-   const intro = {
-      hidden:{opacity: 0},
-      visible:{opacity: 1,
-          transition: {
-          duration: 0.5,
-          staggerChildren: 0.25,
-          delayChildren: 1,
-      }}
-  }
-  const introChildren ={
-      hidden:{opacity: 0, y: -200},
-      visible:{opacity: 1,y: 0,
-          transition: {
-          duration: 0.5,
-          type:'spring',bounce:0.6,
-      }}
-  }
-  const laptop = {
-      initial:{y: 0, rotate:0, scale: 5},
-      animate:{
-          y:20,
-          rotate: -30,
-          scale:1,
-          transition:{
-              duration: 1,
-              ease: 'linear',
-              y:{duration: 2,
-              repeat: Infinity,
-              repeatType:'reverse',
-              ease:'easeInOut',
-          }
-          }
-      }
-  }
+
 
   return (
    <> 
@@ -59,7 +26,19 @@ function Navbar() {
     </motion.header>
 
    {/* hero section*/}
+    <div className='flex border max-w-[1230px] px-[20px] mx-auto md:flex-nowrap  flex-wrap  gap-10'>
+<div>
+    <h1 className='text-6xl font-bold'>Brand New <br /> Event Packages <span className='custom-font-color'>For Winter</span></h1>
+    <p className='max-w-[50ch] my-6 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate. Faucibus nec gravida ipsum pulvinar vel non.</p>
+    <button className='bg-[#3461FF] text-white py-2 px-10'>Explore</button>
+</div>
+    
+    <div className='flex w-full mx-auto items-center justify-center'>
+        <img src={heroSectionImage} alt="" />
+    </div>
 
+
+    </div>
  
 
 

@@ -1,6 +1,7 @@
 import ClientSection from "./ClientSection";
 import EventItems from "./EventItems";
 import OurServices from "./OurServices";
+import RecentEvents from "./RecentEvents";
 
 const Home = () => {
    return (
@@ -8,6 +9,7 @@ const Home = () => {
          <ClientSection/>
          <OurServices/>
          <EventItems/>
+         <RecentEvents/>
       </div>
    );
 };

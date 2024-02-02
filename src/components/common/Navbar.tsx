@@ -27,22 +27,22 @@ function Navbar() {
     </header>
 
    {/* hero section*/}
-    <div className='flex  max-w-[1230px] mx-auto md:flex-nowrap  flex-wrap border gap-5'>
+    <div className='flex  max-w-[1230px] mx-auto md:flex-nowrap  flex-wrap  gap-5 mt-10'>
         <div>
             <h1 className='text-6xl font-bold mt-10'>Brand New <br /> Event Packages <br /> <span className='custom-font-color'>For Winter</span></h1>
             <p className='max-w-[40ch] my-6 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate. Faucibus nec gravida ipsum pulvinar vel non.</p>
-            <button className='bg-[#3461FF] text-white py-2 px-10'>Explore</button>
+            <button className='bg-[#3461FF] text-white py-2 px-14'>Explore</button>
         </div>
         
         <div className='flex  mx-auto items-center justify-center '>
             <div className=''>
-                <img src={heroSectionImage} alt="" className='border border-black p-8' style={{width:'300px',borderTopLeftRadius: '47%', borderTopRightRadius:'47%', borderBottomLeftRadius: '47%', borderBottomRightRadius:'47%'}}/>
+                <img src={heroSectionImage} alt="" className='border border-black p-6' style={{width:'450px',borderTopLeftRadius: '47%', borderTopRightRadius:'47%', borderBottomLeftRadius: '47%', borderBottomRightRadius:'47%'}}/>
             </div>
         </div>
 
     </div>
     
-    <div className='flex max-w-[1230px] mx-auto gap-5 mt-5 sm:justify-center-center sm:items-center-center md:items-start  w-full flex-wrap pb-20'>
+    <div className='flex max-w-[1230px] mx-auto gap-5 md:-mt-8 mt-10 sm:justify-center-center sm:items-center-center md:items-start  w-full flex-wrap pb-20'>
             <div className='border-2 border-white p-3 rounded-3xl bg-[#EFEDF9] shadow-sm'>
                 <Heart className=' size-12  fill-[#685FD4] text-[#C3BFED] bg-[#C3BFED] p-2 rounded-full '/>
                 <p className='max-w-[20ch] mt-8 text-[#333333] font-thin'>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Cursus imperdiet sed id.</p>

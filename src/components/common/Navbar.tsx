@@ -1,7 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { motion } from 'framer-motion';
 import heroSectionImage from '@/assets/img/heroSectionImage.png'
-
 import { Heart } from 'lucide-react';
 
 

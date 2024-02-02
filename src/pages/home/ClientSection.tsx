@@ -15,7 +15,7 @@ function ClientSection() {
   return (
     <>
     <Container> 
-    <div className=' my-20'>
+    <div className=' my-10'>
         <h1 className="text-center text-5xl font-bold mb-10 p-10">Our Valuable Client</h1>
         <div className="grid md:grid-cols-4 lg:grid-cols-5  items-center justify-items-center gap-10">
    

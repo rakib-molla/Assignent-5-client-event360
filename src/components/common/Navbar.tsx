@@ -27,7 +27,7 @@ function Navbar() {
     </header>
 
    {/* hero section*/}
-    <div className='flex  mx-auto md:flex-nowrap  flex-wrap  gap-5'>
+    <div className='flex  max-w-[1230px] mx-auto md:flex-nowrap  flex-wrap border gap-5'>
     
     <div>
         <h1 className='text-6xl font-bold mt-10'>Brand New <br /> Event Packages <br /> <span className='custom-font-color'>For Winter</span></h1>
@@ -35,7 +35,7 @@ function Navbar() {
         <button className='bg-[#3461FF] text-white py-2 px-10'>Explore</button>
 
 
-        <div className='flex gap-5 mt-5  w-full'>
+        <div className='flex gap-5 mt-5 mb-20 w-full'>
             <div className='border-2 border-white p-3 rounded-3xl bg-[#EFEDF9] shadow-sm'>
                 <Heart className=' size-12  fill-[#685FD4] text-[#C3BFED] bg-[#C3BFED] p-2 rounded-full '/>
                 <p className='max-w-[20ch] mt-8 text-[#333333] font-thin'>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Cursus imperdiet sed id.</p>
@@ -52,8 +52,10 @@ function Navbar() {
 
     </div>
     
-    <div className='flex  mx-auto items-center justify-center'>
-        <img src={heroSectionImage} alt="" />
+    <div className='flex  mx-auto items-center justify-center '>
+        <div className=''>
+            <img src={heroSectionImage} alt="" className='border border-black p-8' style={{width:'300px',borderTopLeftRadius: '47%', borderTopRightRadius:'47%', borderBottomLeftRadius: '47%', borderBottomRightRadius:'47%'}}/>
+        </div>
     </div>
 
 

@@ -58,7 +58,7 @@ function OurServices() {
           </div>
             <div className="bg-[#B6DEDB] border   rounded-lg p-4 w-[100%]">
                 <div className="">
-                <h1 className="font-bold text-3xl py-2 ">Wedding Event</h1>
+                <h1 className="font-bold text-3xl  ">Wedding Event</h1>
                 <p className="py-3">Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.</p>
                 </div>
                 <div className="flex flex-col">
@@ -78,7 +78,7 @@ function OurServices() {
                         <Check className="size-5 bg-white rounded-full text-green-500 p-1"/> <p className="max-w-[25ch]"> One day access all lecture </p>
                     </div>
 
-                    <button className="py-2 px-5 bg-blue-500 mt-5 text-white">Check it out</button>
+                    <button className="py-2 px-5 bg-blue-500 mt-2 text-white">Check it out</button>
                 </div>
           </div>
         </div>

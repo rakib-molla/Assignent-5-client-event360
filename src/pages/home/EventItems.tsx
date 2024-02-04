@@ -16,7 +16,7 @@ function EventItems() {
                         <h1 className="font-bold ps-6 flex py-2 items-center">Event Item - 1</h1>
 
                     </div>
-                    <div className=" col-span-12 md:col-span-6  bg-[#F0F0F5] p-2 rounded-md">
+                    <div className=" col-span-12 md:col-span-6  bg-[rgb(240,240,245)] p-2 rounded-md">
                             <img className="h-[150px] cursor-pointer contrast-50 w-[100%] hover:contrast-100 transition-all object-cover rounded-md" src="https://img.freepik.com/free-photo/view-3d-person-sleeping-clouds_23-2151113525.jpg?t=st=1706700661~exp=1706704261~hmac=dc1084ff02ac85a0d03049def5384119301485246236bc581f011755f2b872fd&w=740" alt="" />
                         <h1 className="font-bold ps-6 flex py-2 items-center">Event Item - 4</h1>
 
@@ -46,7 +46,7 @@ function EventItems() {
             </div>
             <div className=" col-span-12 w-80 md:col-span-4 bg-gray-400 rounded-md overflow-hidden">
                 <div className="flex items-center justify-center overflow-hidden p-2">
-                    <img className="h-[350px] cursor-pointer contrast-50 w-[90%] hover:contrast-100 transition-all object-cover rounded-md" src="https://img.freepik.com/free-photo/view-3d-person-sleeping-clouds_23-2151113525.jpg?t=st=1706700661~exp=1706704261~hmac=dc1084ff02ac85a0d03049def5384119301485246236bc581f011755f2b872fd&w=740" alt="" />
+                    <img className="h-[350px] cursor-pointer contrast-50 w-[100%] hover:contrast-100 transition-all object-cover rounded-md" src="https://img.freepik.com/free-photo/view-3d-person-sleeping-clouds_23-2151113525.jpg?t=st=1706700661~exp=1706704261~hmac=dc1084ff02ac85a0d03049def5384119301485246236bc581f011755f2b872fd&w=740" alt="" />
                 </div>
                 <h1 className="font-bold ps-6 flex py-2 items-center">Event Item - 6</h1>
             </div>

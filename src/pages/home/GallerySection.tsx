@@ -1,4 +1,14 @@
 import { Check } from "lucide-react";
+import pictureOne from '@/assets/img/Picture1.png';
+import pictureTwo from '@/assets/img/Picture2.png';
+import pictureThree from '@/assets/img/Picture3.png';
+import pictureFour from '@/assets/img/Picture4.png';
+import pictureFive from '@/assets/img/Picture5.png';
+import pictureSix from '@/assets/img/Picture6.png';
+import pictureSeven from '@/assets/img/Picture7.png';
+import pictureEight from '@/assets/img/Picture8.png';
+import pictureNine from '@/assets/img/Picture9.png';
+import pictureTen from '@/assets/img/Picture10.png';
 
 const GallerySection = () => {
    return (
@@ -32,30 +42,58 @@ const GallerySection = () => {
         </div>
 
         {/* <!-- Left Column - Images --> */}
-        <div className="md:w-1/2 border">
-          <div className="flex justify-between mb-4">
-            <img
-              src="image1.jpg"
-              alt="Image 1"
-              className="w-1/2 md:w-full object-cover"
-            />
-            <img
-              src="image2.jpg"
-              alt="Image 2"
-              className="w-1/2 md:w-full object-cover"
-            />
-            <img
-              src="image2.jpg"
-              alt="Image 2"
-              className="w-1/2 md:w-full object-cover"
-            />
+        <div className="md:w-2/3 ">
+          <div className="flex items-center flex-wrap">
+              
+                <div className="flex flex-col items-center gap-1  h-[450px]">
+                  <div className="">
+                      <img className=" h-40" src={pictureOne} alt="" />
+                  </div>
+                  
+                  <div className="h-32 w-52">
+                      <img className=" h-50" src={pictureTwo} alt="" />
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center gap-3   h-[650px]">
+                  <div className="">
+                      <img className=" h-50" src={pictureThree} alt="" />
+                  </div>
+
+                  <div className="h-50">
+                      <img className=" h-50" src={pictureFour} alt="" />
+                  </div>
+                  <div className="h-56 ">
+                      <img className=" h-52" src={pictureFive} alt="" />
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center gap-3  h-[650px]">
+                  <div className="">
+                      <img className=" h-36" src={pictureSix} alt="" />
+                  </div>
+
+                  <div className="h-50 ">
+                      <img className=" h-50" src={pictureSeven} alt="" />
+                  </div>
+                  <div className="h-50 ">
+                      <img className=" h-50" src={pictureEight} alt="" />
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center justify-center gap-3  h-[650px]">
+                  <div className="">
+                      <img className="h-auto" src={pictureNine} alt="" />
+                  </div>
+
+                  <div className="h-50 ">
+                      <img className=" h-50" src={pictureTen} alt="" />
+                  </div>
+                 
+                </div>
+                
           </div>
-          
-          
         </div>
-
-        
-
       </div>
     </div>
    );

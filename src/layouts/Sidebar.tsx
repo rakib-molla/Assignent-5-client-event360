@@ -8,7 +8,7 @@ import { Link, NavLink } from "react-router-dom"
 
 function Sidebars() {
   return (
-    <aside className="bg-[#F6F6F6] h-screen w-[300px] lg:col-span-2 sticky top-0 left-0 overflow-auto p-4 lg:p-5 ">
+    <aside className="bg-[#F6F6F6] h-screen w-[328px] lg:col-span-2 sticky top-0 left-0 overflow-auto p-4 lg:p-5 ">
         <nav className="flex flex-col gap-2">
             
             {/* <NavLink 
@@ -22,21 +22,21 @@ function Sidebars() {
             </NavLink> */}
 
 
-          <Sidebar width="297px">
+          <Sidebar width="298px">
             <Menu >
                 <MenuItem className=''><Link to={'/admin/dashboard'}> Dashboard </Link></MenuItem>
               <SubMenu  label="Event Items Management">
                 <MenuItem> <Link to={'/admin/create-event-management'}>Create Event Items</Link></MenuItem>
-                <MenuItem><NavLink to={''}> Event Items List </NavLink></MenuItem>
+                <MenuItem><Link to={''}> Event Items List </Link></MenuItem>
               </SubMenu>
 
               <SubMenu  label="Recent Event Management">
-                <MenuItem> <NavLink to={''}>Create Recent  Management</NavLink></MenuItem>
-                <MenuItem><NavLink to={''}> Recent Event  List </NavLink></MenuItem>
+                <MenuItem> <Link to={''}>Create Recent  Management</Link></MenuItem>
+                <MenuItem><Link to={''}> Recent Event  List </Link></MenuItem>
               </SubMenu>
 
               <SubMenu  label="Service Management">
-                <MenuItem> <NavLink to={'create-service-management'}>Create Service Management</NavLink></MenuItem>
+                <MenuItem> <Link to={'create-service-management'}>Create Service Management</Link></MenuItem>
                 <MenuItem><NavLink to={''}> Service Management List </NavLink></MenuItem>
               </SubMenu>
               

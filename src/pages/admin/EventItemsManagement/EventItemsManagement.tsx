@@ -2,7 +2,11 @@
 
 function EventItemsManagement() {
   return (
-    <div>EventItemsManagement</div>
+    <>
+     <div>
+        event
+     </div>   
+    </>
   )
 }
 

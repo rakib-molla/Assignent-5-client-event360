@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar";
+import Sidebars from "./Sidebar";
+
 
 
 const AdminLayout = () => {
   return (
     <div className="grid grid-cols-12">
-        <Sidebar/>
+        <Sidebars/>
         <div className="col-span-10 h-[200vh]">
             <Outlet/>
         </div>

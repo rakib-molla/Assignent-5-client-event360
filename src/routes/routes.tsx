@@ -26,9 +26,9 @@ export const routes = createBrowserRouter([
     errorElement: <div> Error</div>,
     children:[
       {
-                index: true,
-                element: <Navigate to={'/admin/dashboard'}/>
-            },
+        index: true,
+        element: <Navigate to={'/admin/dashboard'}/>
+      },
       {
         path: 'dashboard',
         element: <Dashboard/>,

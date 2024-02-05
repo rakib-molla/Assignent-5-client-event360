@@ -8,7 +8,7 @@ import { Link, NavLink } from "react-router-dom"
 
 function Sidebars() {
   return (
-    <aside className="bg-[#F6F6F6] h-screen col-span-2 sticky top-0 left-0 overflow-auto p-4 lg:p-5 ">
+    <aside className="bg-[#F6F6F6] h-screen w-[300px] lg:col-span-2 sticky top-0 left-0 overflow-auto p-4 lg:p-5 ">
         <nav className="flex flex-col gap-2">
             
             {/* <NavLink 

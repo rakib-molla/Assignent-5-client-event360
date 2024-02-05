@@ -24,7 +24,7 @@ function Sidebars() {
 
           <Sidebar width="297px">
             <Menu >
-                <MenuItem className=''> Dashboard</MenuItem>
+                <MenuItem className=''><Link to={'/admin/dashboard'}> Dashboard </Link></MenuItem>
               <SubMenu  label="Event Items Management">
                 <MenuItem> <Link to={'/admin/create-event-management'}>Create Event Items</Link></MenuItem>
                 <MenuItem><NavLink to={''}> Event Items List </NavLink></MenuItem>

@@ -5,7 +5,7 @@ import Sidebars from "./Sidebar";
 
 const AdminLayout = () => {
   return (
-    <div className="grid grid-cols-12">
+    <div className="flex">
         <Sidebars/>
         <div className="col-span-10 h-[200vh]">
             <Outlet/>

@@ -27,8 +27,8 @@ function Sidebar() {
                 'bg-[#2211bdd2] text-white': isActive,
             }
             )}
-             to={'/admin/service-list'}>
-            <LayoutDashboard className="shrink-0"/> <span className="truncate">Service List</span>
+             to={'/admin/event-item-management'}>
+            <LayoutDashboard className="shrink-0"/> <span className="truncate">Event Items Management</span>
             </NavLink>
             
             <NavLink 
@@ -37,8 +37,17 @@ function Sidebar() {
                 'bg-[#2211bdd2] text-white': isActive
             }
             )}
-             to={'/admin/add-service'}>
-            <LayoutDashboard className="shrink-0"/> <span className="truncate">Add Service</span>
+             to={'/admin/recent-event-management'}>
+            <LayoutDashboard className="shrink-0"/> <span className="truncate">Recent Event Management</span>
+            </NavLink>
+            <NavLink 
+            className={({isActive})=> cn('rounded-md p-3 bg-[#bdbcbc] hover:bg-[#818181] hover:text-white transition-all truncate flex items-center  gap-3',
+            {
+                'bg-[#2211bdd2] text-white': isActive
+            }
+            )}
+             to={'/admin/service-management'}>
+            <LayoutDashboard className="shrink-0"/> <span className="truncate">Service Management</span>
             </NavLink>
         </nav>
     </aside>

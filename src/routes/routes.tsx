@@ -1,8 +1,11 @@
 import App from "@/App";
 import AdminLayout from "@/layouts/AdminLayout";
 import Dashboard from "@/pages/admin/Dashboard";
+import EventItemsManagement from "@/pages/admin/EventItemsManagement/EventItemsManagement";
+import RecentEventManagement from "@/pages/admin/RecentEventManagement/RecentEventManagement";
+import ServicesManagement from "@/pages/admin/ServicesManagement/ServicesManagement";
 import Home from "@/pages/home/Home";
-import { createBrowserRouter } from "react-router-dom";
+import { Navigate, createBrowserRouter } from "react-router-dom";
 
 export const routes = createBrowserRouter([
   {
@@ -18,14 +21,30 @@ export const routes = createBrowserRouter([
   },
 
   {
-    path:'/dashboard',
+    path:'/admin',
     element: <AdminLayout/>,
     errorElement: <div> Error</div>,
     children:[
       {
-        path: '/dashboard',
+                index: true,
+                element: <Navigate to={'/admin/dashboard'}/>
+            },
+      {
+        path: 'dashboard',
         element: <Dashboard/>,
-      }
+      },
+      {
+        path: 'event-item-management',
+        element: <EventItemsManagement/>
+      },
+      {
+        path: 'recent-event-management',
+        element: <RecentEventManagement/>
+      },
+      {
+        path: 'service-management',
+        element: <ServicesManagement/>
+      },
     ]
   }
 

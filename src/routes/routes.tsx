@@ -1,9 +1,9 @@
 import App from "@/App";
 import AdminLayout from "@/layouts/AdminLayout";
 import Dashboard from "@/pages/admin/Dashboard";
-import EventItemsManagement from "@/pages/admin/EventItemsManagement/EventItemsManagement";
-import RecentEventManagement from "@/pages/admin/RecentEventManagement/RecentEventManagement";
-import ServicesManagement from "@/pages/admin/ServicesManagement/ServicesManagement";
+import CreateEventItemsManagement from "@/pages/admin/EventItemsManagement/CreateEventItemsManagement";
+import CreateRecentEventManagement from "@/pages/admin/RecentEventManagement/CreateRecentEventManagement";
+import CreateServicesManagement from "@/pages/admin/ServicesManagement/CreateServicesManagement";
 import Home from "@/pages/home/Home";
 import { Navigate, createBrowserRouter } from "react-router-dom";
 
@@ -33,17 +33,20 @@ export const routes = createBrowserRouter([
         path: 'dashboard',
         element: <Dashboard/>,
       },
+      // event items management 
       {
-        path: 'event-item-management',
-        element: <EventItemsManagement/>
+        path: 'create-event-management',
+        element: <CreateEventItemsManagement/>
       },
+      // recent events management
       {
-        path: 'recent-event-management',
-        element: <RecentEventManagement/>
+        path: 'create-recent-event-management',
+        element: <CreateRecentEventManagement/>
       },
+      // services management
       {
-        path: 'service-management',
-        element: <ServicesManagement/>
+        path: 'create-service-management',
+        element: <CreateServicesManagement/>
       },
     ]
   }

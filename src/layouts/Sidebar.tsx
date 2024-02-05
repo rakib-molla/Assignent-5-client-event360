@@ -2,7 +2,7 @@ import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 
 import { cn } from "@/lib/utils"
 import { LayoutDashboard,  } from "lucide-react"
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 
 
@@ -26,7 +26,7 @@ function Sidebars() {
             <Menu >
                 <MenuItem className=''> Dashboard</MenuItem>
               <SubMenu  label="Event Items Management">
-                <MenuItem> <NavLink to={''}>Create Event Items</NavLink></MenuItem>
+                <MenuItem> <Link to={'/admin/create-event-management'}>Create Event Items</Link></MenuItem>
                 <MenuItem><NavLink to={''}> Event Items List </NavLink></MenuItem>
               </SubMenu>
 
@@ -36,7 +36,7 @@ function Sidebars() {
               </SubMenu>
 
               <SubMenu  label="Service Management">
-                <MenuItem> <NavLink to={''}>Create Service Management</NavLink></MenuItem>
+                <MenuItem> <NavLink to={'create-service-management'}>Create Service Management</NavLink></MenuItem>
                 <MenuItem><NavLink to={''}> Service Management List </NavLink></MenuItem>
               </SubMenu>
               

@@ -7,7 +7,7 @@ const ClientReviewSection = () => {
        <h1 className='font-bold text-5xl mb-20'>
          What Your Client Said About Us
        </h1>
-       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4'>
+       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 '>
          <div className='bg-blue-500 rounded-lg text-white p-4 shadow-lg'>
            <div className='flex items-center  gap-5 p-5'>
              <div>
@@ -18,7 +18,8 @@ const ClientReviewSection = () => {
                />
              </div>
              <div className='flex flex-col gap-2'>
-               <h1>Amelia Joseph</h1>
+               <h1 className='font-bold text-xl'>Amelia Joseph</h1>
+
                <p>Chief Manager</p>
              </div>
            </div>
@@ -31,7 +32,7 @@ const ClientReviewSection = () => {
            </div>
          </div>
 
-         <div className='bg-white p-4 shadow-lg'>
+         <div className='bg-blue-500 rounded-lg text-white p-4 shadow-lg'>
            <div className='flex items-center  gap-5 p-5'>
              <div className=''>
                <img
@@ -41,7 +42,7 @@ const ClientReviewSection = () => {
                />
              </div>
              <div className='flex flex-col gap-2'>
-               <h1>Amelia Joseph</h1>
+               <h1 className='font-bold text-xl'>Jacob Joshua</h1>
                <p>Chief Manager</p>
              </div>
            </div>
@@ -54,7 +55,7 @@ const ClientReviewSection = () => {
            </div>
          </div>
 
-         <div className='bg-white p-4 shadow-lg'>
+         <div className='bg-blue-500 rounded-lg text-white p-4 shadow-lg'>
            <div className='flex items-center  gap-5 p-5'>
              <div>
                <img
@@ -64,7 +65,7 @@ const ClientReviewSection = () => {
                />
              </div>
              <div className='flex flex-col gap-2'>
-               <h1>Amelia Joseph</h1>
+               <h1 className='font-bold text-xl'>Amelia Joseph</h1>
                <p>Chief Manager</p>
              </div>
            </div>
